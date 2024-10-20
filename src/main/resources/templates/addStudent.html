@@ -1,0 +1,27 @@
+<div th:replace="~{header.html}"></div>
+<div class="container-fluid">
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title fw-semibold mb-4">Add Student</h5>
+            <div class="col-6 mx-auto bg-dark p-4 text-light">
+                <form>
+                    <form action="" method="post">
+                        <label for="">Name:</label>
+                        <input type="text" name="name" placeholder="Name" id="" class="form-control my-2">
+                        <label for="">Gender:</label>
+                        <select name="gender" class="form-select my-2" id="">
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                        </select>
+                        <label for="">Cource:</label>
+                        <input type="text" name="cource" placeholder="Cource" id="" class="form-control my-2">
+                        <label>Profile: </label>
+                        <input type="file" name="profile" id="">
+                        <button class="btn btn-outline-success">+ Add Student</button>
+                    </form>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<div th:replace="~{footer.html}"></div>
